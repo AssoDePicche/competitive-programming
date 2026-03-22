@@ -7,12 +7,12 @@ indent_style = tab
 insert_final_newline = true
 trim_trailing_whitespace = true
 
-[*.{c,cpp,h,hpp,java,rb}]
+[*.{c,cpp,h,hpp,java,php,rb}]
 indent_size = 2
 indent_style = space
 
 [*.php]
-indent_size = 4
+tab_width = 2
 
 [*.sql]
 tab_width = 3
